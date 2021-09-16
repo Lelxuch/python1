@@ -1,6 +1,9 @@
 from itertools import permutations
  
-perm = permutations(['a', 'b', 'c'])
- 
-for i in list(perm):
-    print (i)
+def func(arr):
+    ans = permutations(arr)
+    for i in list(ans):
+        print (i)
+
+arr = ['a', 'b', 'c'];
+func(arr)
